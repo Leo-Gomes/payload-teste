@@ -1,1 +1,87 @@
 # payload-teste
+
+inserir produto:
+
+{
+  "enabled": true,
+  "name": "Tênis Casual Feminino1",
+  "slug": "tenis-casual-feminino1",
+  "useInMenu": true,
+  "stock": 25,
+  "description": "Tênis leve e confortável, ideal para caminhadas.",
+  "price": 299.9,
+  "priceWithDiscount": 259.9,
+  "category_ids": [1, 2],
+  "images": [
+  {
+    "path": "https://meusite.com/imagens/tenis3.png",
+    "enabled": true
+  },
+  {
+    "path": "https://meusite.com/imagens/tenis4.png"
+  }
+],
+  "options": [
+    {
+      "title": "Tamanho",
+      "shape": "SQUARE",
+      "radius": 4,
+      "type": "TEXT",
+      "value": ["38", "39", "40", "41", "42"]
+    },
+    {
+      "title": "Cor",
+      "shape": "CIRCLE",
+      "type": "COLOR",
+      "value": ["#000000", "#FFFFFF", "#FF0000"]
+    }
+  ]
+}
+
+alterar produto:
+
+{
+  "enabled": true,
+  "name": "Tênis Esportivo Masculino4",
+  "slug": "tenis-esportivo-masculino4",
+  "useInMenu": true,
+  "stock": 25,
+  "description": "Tênis leve e confortável, ideal para corridas e caminhadas.",
+  "price": 199.9,
+  "priceWithDiscount": 149.9,
+  "category_ids": [2, 1],
+  "images": [
+    {
+      "path": "https://meusite.com/imagens/tenis3.png",
+      "enabled": true
+    },
+    {
+      "path": "https://meusite.com/imagens/tenis4.png",
+      "enabled": false
+    }
+  ],
+  "options": [
+    {
+      "title": "Tamanho",
+      "shape": "SQUARE",
+      "radius": 4,
+      "type": "TEXT",
+      "value": ["38", "39", "40", "41", "42"]
+    },
+    {
+      "title": "Cor",
+      "shape": "CIRCLE",
+      "radius": 0,
+      "type": "COLOR",
+      "value": ["#000000", "#FFFFFF", "#FF0000"]
+    }
+  ]
+}
+
+
+addd category: 
+{
+  "name": "Shoes",
+  "slug": "shoes",
+  "useInMenu": true
+}
