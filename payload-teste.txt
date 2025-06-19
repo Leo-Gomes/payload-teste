@@ -1,6 +1,7 @@
 # payload-teste
+_____________________________________________________________________________
 
-inserir produto:
+INSERIR PRODUTO:
 
 {
   "enabled": true,
@@ -38,7 +39,9 @@ inserir produto:
   ]
 }
 
-alterar produto:
+_____________________________________________________________________________
+
+ALTERAR PRODUTO E SUAS RELAÇÕES:
 
 {
   "enabled": true,
@@ -78,11 +81,32 @@ alterar produto:
   ]
 }
 
-link do projeto
+_____________________________________________________________________________
+
+
+ALTERAR SOMENTE OS PRINCIPAIS DADOS DO PRODUTO:
+
+{
+  "enabled": true,
+  "name": "Tênis Casual Feminino5",
+  "slug": "tenis-casual-feminino5",
+  "useInMenu": true,
+  "stock": 25,
+  "description": "Tênis leve e confortável, ideal para corridas e caminhadas.",
+  "price": 199.9,
+  "priceWithDiscount": 149.9
+}
+
+_____________________________________________________________________________
+
+
+LINK DO PROJETO
 https://project-backend-gt.onrender.com/
 
+_____________________________________________________________________________
 
-addd category: 
+
+ADD CATEGORY: 
 {
   "name": "Shoes",
   "slug": "shoes",
